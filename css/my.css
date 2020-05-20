@@ -2,12 +2,14 @@
 
 body {
   font-family: playfair display;
-  background-image: url("../images/profile.jpeg");
   background-position: right;
   background-repeat: no-repeat;
   background-position-x: 90%;
   background-position-y: 15%;
   background-size: 50em;
+}
+body.bg{
+  background-image: url("../images/profile.jpeg");
 }
 @media (max-width:500px) {
   body {
@@ -51,15 +53,6 @@ a:hover {
   bottom: 0;
   right: 11px;
 }
-img {
-  width: 30%;
-  height: 10%;
-}
 img.blog {
   width: 30%;
-  height: 10%;
-}
-img:blog {
-  width: 30%;
-  height: 10%;
 }
