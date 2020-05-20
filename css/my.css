@@ -49,7 +49,7 @@ a:hover {
   max-width: 100%;
 }
 .iconic {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 11px;
 }
