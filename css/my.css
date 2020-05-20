@@ -9,8 +9,9 @@ body {
   background-size: 50em;
 }
 body.bg{
-  background-image: url("../images/tea-02.jpeg");
+  background-image: url("../../images/tea-02.jpeg");
 }
+
 @media (max-width:500px) {
   body {
     background-size: 137%;
