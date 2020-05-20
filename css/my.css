@@ -9,7 +9,7 @@ body {
   background-size: 50em;
 }
 body.bg{
-  background-image: url("../shvagahb/images/tea-02.jpeg");
+  background-image: url("../shvagahb/images/tea-02.jpg");
 }
 
 @media (max-width:500px) {
