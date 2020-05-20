@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+  font-family: playfair display;
+  background-image: url("../images/tea-02.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position-x: 76%;
+  background-position-y: 39%
+}
+@media (max-width:500px) {
+  body {
+    background-size: 137%;
+    background-position-y: -58%;
+    background-position-x: 110%;
+    font-size: 2.5em;
+  }
+  h4 {
+    font-size: 5.4rem
+  }
+}
+.bg {
+
+}
+h4 {
+  color: #383838;
+  opacity: 0.7;
+}
+p {
+  color: #383838;
+  opacity: 0.7;
+}
+a {
+  color: #383838;
+  opacity: 0.7;
+  text-decoration: none;
+
+}
+a.padded {
+  padding-right: 1em;
+  text-decoration: none;
+}
+a:hover {
+}
+.picture_show {
+  max-width: 100%;
+}
+.iconic {
+  position: absolute;
+  bottom: 0;
+  right: 11px;
+}
