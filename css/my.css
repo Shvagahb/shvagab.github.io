@@ -11,7 +11,18 @@ body {
 body.bg{
   background-image: url("../images/tea-02.png");
 }
-
+@media (max-width:1230px) {
+  body.typeformpage {
+    background-size: 30em;
+  }
+}
+@media (max-width:785px) {
+  body.typeformpage {
+    background-size: 15em;
+    background-position-x: left;
+    background-position-y: 26%;
+  }
+}
 @media (max-width:500px) {
   body {
     background-size: 137%;
@@ -19,13 +30,16 @@ body.bg{
     background-position-x: 110%;
     font-size: 2.5em;
   }
+  body.typeformpage {
+    background-size: 5em;
+    background-position-y: initial;
+    background-position-x: center;
+  }
   h4 {
     font-size: 5.4rem
   }
 }
-.bg {
 
-}
 h4 {
   color: #383838;
   opacity: 0.7;
@@ -58,6 +72,6 @@ img.blog {
   width: 100%;
 }
 
-.footer__ButtonsWrapper-sc-1bn1rrm-6 .bnfTIK {
-  display: none;
+.XJyzP {
+  display: none !important;
 }
